@@ -1,0 +1,6 @@
+[Unit]
+Description=Open vSwitch Database Server
+Documentation=man:ovsdb-server
+
+[Service]
+ExecStart=/usr/bin/ovsdb-server --remote=punix:/run/openvswitch/db.sock
