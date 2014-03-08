@@ -1,6 +1,6 @@
 # Maintainer: Lance Chen <cyen0312+aur@gmail.com>
 
-pkgname=('openvswitch-datapath-dkms')
+pkgname='openvswitch-datapath-dkms'
 pkgver=2.0.1
 pkgrel=1
 pkgdesc="Openvswitch datapath kernel module"
@@ -15,7 +15,7 @@ source=("http://openvswitch.org/releases/openvswitch-$pkgver.tar.gz"
 md5sums=('a2122b1c293c8d05dc0c673d42a9da08'
          '6dfb9ec230994864a9da88a7d288a254')
 
-package_openvswitch-datapath-dkms() {
+package() {
 
   cd "openvswitch-${pkgver}"
 
