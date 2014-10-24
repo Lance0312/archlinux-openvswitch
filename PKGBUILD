@@ -1,9 +1,10 @@
 # Maintainer: Lance Chen <cyen0312+aur@gmail.com>
+# Contributor: Roan Huang <inceptioninx@gmail.com>
 
 pkgbase=openvswitch
 pkgname=('openvswitch' 'openvswitch-datapath-dkms')
 pkgver=2.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="An Open Virtual Switch"
 arch=('i686' 'x86_64')
 url="http://openvswitch.org/"
@@ -15,8 +16,8 @@ source=("http://openvswitch.org/releases/openvswitch-$pkgver.tar.gz"
         "openvswitch.tmpfiles"
         "ovs-vswitchd.service"
         "ovsdb-server.service"
-	"gcc-date-time.patch")
-md5sums=('9c4d1471a56718132e0157af1bfc9310'
+        "gcc-date-time.patch")
+md5sums=('6ba75bc3927aee158be1aa834614b927'
          '6dfb9ec230994864a9da88a7d288a254'
          '0534c19ed27d2ff8c6b32d87c07bc76f'
          '280748c570711aae27732ee0c450368f'
