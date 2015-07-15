@@ -3,7 +3,7 @@
 
 pkgbase=openvswitch
 pkgname=('openvswitch' 'openvswitch-datapath-dkms')
-pkgver=2.3.1
+pkgver=2.3.2
 pkgrel=1
 pkgdesc="An Open Virtual Switch"
 arch=('i686' 'x86_64')
@@ -16,7 +16,7 @@ source=("http://openvswitch.org/releases/openvswitch-$pkgver.tar.gz"
         "openvswitch.tmpfiles"
         "ovs-vswitchd.service"
         "ovsdb-server.service")
-md5sums=('c008c1de0a8b6363b37afa599105d6d6'
+md5sums=('5a5739ed82f1accac1c2d8d7553dc88f'
          '6dfb9ec230994864a9da88a7d288a254'
          '0534c19ed27d2ff8c6b32d87c07bc76f'
          '280748c570711aae27732ee0c450368f'
