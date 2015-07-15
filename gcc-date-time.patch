@@ -1,0 +1,10 @@
+--- a/openvswitch-2.3.0/datapath/linux/Kbuild.in	2014-10-16 04:46:52.360000000 +0800
++++ b/openvswitch-2.3.0/datapath/linux/Kbuild.in	2014-10-16 04:47:41.600000000 +0800
+@@ -12,6 +12,7 @@
+ EXTRA_CFLAGS += -I$(builddir)/..
+ EXTRA_CFLAGS += -g
+ EXTRA_CFLAGS += -include $(builddir)/kcompat.h
++EXTRA_CFLAGS += -Wno-date-time
+ 
+ # These include directories have to go before -I$(KSRC)/include.
+ # NOSTDINC_FLAGS just happens to be a variable that goes in the
